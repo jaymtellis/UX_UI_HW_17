@@ -1,0 +1,126 @@
+@import url(https://db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navbar styling */
+.navbar {
+position: fixed;
+width: 100%;
+padding: 15px 0;
+background: #2C2C2C;
+font-family: "Shree Devanagari 714";
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+
+}
+.navbar .menu li a {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 15px;
+    transition: color 0.3s ease;
+
+}
+
+.navbar .menu li a:hover {
+    color: rgb(25, 187, 228);
+}
+
+/* home section styling */
+
+.home {
+    float: left;
+    width: 35%;
+    display: flex;
+    background: #FFFFFF;
+    height: 100vh;
+    min-height: 500px;
+    font-family: "Shree Devanagari 714";
+}
+
+.home .max-width {
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .name {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.home .home-content .title {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.home .home-content .description {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 15px;
+    /*margin-right: 50vw;*/
+}
+
+.home .home-content .icons{
+    margin-top: 20px;
+}
+
+.hero-icons a{
+    margin-right: 30px;
+}
+
+.headshot {
+    float: right;
+    width: 65%;
+    display: flex;
+    background: #FFFFFF;
+    height: 100vh;
+    min-height: 500px;
+    font-family: "Shree Devanagari 714";
+}
+
+.back-headshot{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.main-headshot{
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+.case-study-1 .max-width{
+    margin: auto 0 auto 40px;
+}
+.inertia .ul{
+    list-style: none;
+    display: inline-block;
+}
+
+/* Footer Section Styling */
+
+footer {
+    background: #2C2C2C;
+    padding: 20px 23px;
+    color: white;
+
+}
