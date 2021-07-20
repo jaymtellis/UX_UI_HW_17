@@ -7,70 +7,129 @@
     <title> Jay Tellis Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
     <link href="//db.onlinewebfonts.com/c/d02befc8fdd8e5315fb21fa7f38fd55a?family=Shree+Devanagari+714" rel="stylesheet" type="text/css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 
 <body>
-    <!-- Header Section Start --> 
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><a href="#"><img src="images/logo.png" width="36" height="36"></a></div>
-            <ul class="menu">
-                <li><a href="#">Work</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <!--Header Section-->
+    <div class="header">
+        <div class="nav">
+            <div class="logo"><img src="images/logo.png" width="36" height="36"></div>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
         </div>
-    </nav>
+    </div>
+    <!--Hero Section-->
+    <section class="hero">
+        <div class="description">
+            <div class="name"><h1>Jay Tellis</h1></div>
+            <div class="title"><h2>Product Designer</h2></div>
+            <div class="statement"><h3>4+ years of experience developing digital and physical products from concept to creation.</h3></div>
+            <div class="icons">
+                <ul class="hero-icons">
+                    <a href="https://facebook.com/jtellis17"><img src="images/facebook_b.png" width="24" height="24"></a>
+                    <a href="https://instagram.com/jaymtellis"><img src="images/instagram_b.png" width="24" height="24"></a>
+                    <a href="https://www.linkedin.com/in/jtellis17"><img src="images/linkedin_b.png" width="24" height="24"></a>
+                    <a href="https://twitter.com/jaymtellis"><img src="images/twitter_b.png" width="29" height="24"></a>
+                </ul>
+            </div>
+            <div class="case-study-button"><p>case studies</p><img src="images/down.png" width="24" height="24"></div>
+        </div>
 
-    <!-- Home Section Start -->
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
-                <div class="name">Jay Tellis</div>
-                <div class="title">Product Designer</div>
-                <div class="description">4+ years of experience developing digital and physical products from concept to creation.</div>
-                <div class="icons">
-                    <ul class="hero-icons">
-                        <a href="https://facebook.com/jtellis17"><img src="images/facebook_b.png" width="24" height="24"></a>
-                        <a href="https://instagram.com/jaymtellis"><img src="images/instagram_b.png" width="24" height="24"></a>
-                        <a href="https://www.linkedin.com/in/jtellis17"><img src="images/linkedin_b.png" width="24" height="24"></a>
-                        <a href="https://twitter.com/jaymtellis"><img src="images/twitter_b.png" width="29" height="24"></a>
-                        <br><br><br><p>case studies</p><img src="images/down.png" width="32" height="32">
-                    </ul>
+        <div class="headshot">
+            <img src="images/headshot.png" class="top" >
+            <img src="images/headshot_behind.png" class="bottom">
+        </div>
+    </section>
+    <!--About Section-->
+    <section class="about" id="about">
+        <div class="divider">
+            <p>About</p>
+            <img src="images/line-divider.png" width="100%" height="0.5">
+        </div>
+        <div class="about-me">
+            <p>With medical devices and their interfaces, design is the intermediary between the esoteric processes and experience patient/user input. I love discovering the root of problems that wasn’t known and truly emphasizing with the end user to design something that is useful and effective. Biomedical engineering experience helped me think critically about user needs and how to translate insights into product requirements, then design inputs. How to test those inputs to ensure it meets those user needs. With over 4 years of experience of designing and developing products, I look forward to bridging the gap of healthcare and technology with patients being the center focus..</p>
+        </div>
+        <div class="divider">
+            <p>Skills</p>
+            <img src="images/line-divider.png" width="100%" height="0.5">
+        </div>
+        <div class="skill-sectional">
+            <div class="skill1">
+                <h3>User Research</h3>
+                <p>Capability to empathize with user’s needs to discover insights, ideate solutions and verify those solutions through low/hi-fidelity prototype testing.</p>
+            </div>
+            <div class="skill2">
+                <h3>Visual Design</h3>
+                <p>Ability to apply compelling images, color theory, typography, and other visual elements to make the most appealing design to the end user.</p>
+            </div>
+            <div class="skill3">
+                <h3>User Interaction</h3>
+                <p>Experience making thoughtful and purposeful interactions to help users complete tasks and enhance their experience.</p>
+            </div>
+        </div>
+        <div class="resume-button">
+            <a href="images/Tellis_Resume.pdf" target="_blank"><h3>Download Resume</h3></a>
+        </div>
+    </section>
+    <!--Work Section-->
+    <section class="work" id="work">
+        <div class="casestudy-divider-1">
+            <p>Case Study 01</p>
+            <img src="images/line-divider.png" width="100%" height="0.5">
+            <p>June 2021</p>
+        </div>
+        <div class="casestudy1-content">
+            <div class="preview-image">
+                <img src="images/inertia_mock.png" class="top" width="300" height="175">
+                <img src="images/empty_circle.png" class="middle" width="300" height="300">
+                <img src="images/filled_circle.png" class="bottom" width="315" height="315">
+            </div>
+            <div class="preview-description">
+                <div><h2>Objects in Motion Stay in Motion</h2></div>
+                <div><h3>Responsive Web Design, UX Research & Design</h3></div>
+                <div><p>A redesign to increase engagement from volunteers to help Inertia, a nonprofit after school program, expand and and be the driving force that propells students in underserved communities to academic success.</p></div>
+                <div class="inertia-button">
+                    <p>View Case Study</p>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <aside class="headshot">
-        <div class="max-width">
-            <div class="headshot-section" style="position: relative; left: 0; top: o;">
-                <img src="images/headshot_behind.png" class="back-headshot" width="715" height="481">
-                <img src="images/headshot.png" class="main-headshot" width="715" height="500">
+
+        <div class="casestudy-divider-2">
+            <p>Case Study 02</p>
+            <img src="images/line-divider.png" width="100%" height="0.5">
+            <p>April 2021</p>
+        </div>
+        <div class="casestudy2-content">
+            <div class="preview-image">
+                <img src="images/screen1.png" class="screen1" width="205" height="320">
+                <img src="images/screen2.png" class="screen2" width="205" height="320">
+                <img src="images/empty-triangle.png" class="middle" width="330" height="330">
+                <img src="images/opaque_triangle.png" class="bottom" width="330" height="330">
             </div>
-        </div>       
-    </aside>
-
-    <!--Case Study -->
-    <section class="case-study-1">
-        <div class="max-width">
-            <div class="inertia">
-                <ul>
-                    <li>Case Study</li>
-                    <li><img src="images/line-divider.png" width="815"></li>
-                    <li>2021</li>
-                </ul>
-
+            <div class="preview-description">
+                <div><h2>Gliding through Auditions</h2></div>
+                <div><h3>Mobile Application, UX Research & Design</h3></div>
+                <div><p>A case study emphasizing the needs of professional dancers in order to ease audition processes. Ultimately, allowing them to focus on what they do best, dance!</p></div>
+                <div class="glyde-button">
+                    <p>View Case Study</p>
+                </div>
             </div>
         </div>
 
+        
     </section>
+    <!--Contact Section-->
 
-    <!--Footer Section Start-->
+
+
+
     <footer>
-        <span>Jay Tellis | <span class="far fa-copyright"></span>All Rights Reserved.</span>
+        <p>c Jay Tellis 2021</p>
     </footer>
-
 </body>
 
 </html>
